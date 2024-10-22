@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.main_container {
+    display: flex;
+    height: 100vh;
+}
+
+.main_contacts {
+    width: 25vw;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+.navigation_menu {
+    font-size: x-large;
+    color: #828485;
+    padding: 1rem;
+}
+
+.thumb_user_card {
+    display: flex;
+    margin: 1rem;
+}
+
+.tiny_thumb {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.user_name {
+    color: #444749;
+    font-weight: 500;
+}
+
+.user_status {
+    color: #828485;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.new_chat_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+.new_chat_button {
+    background-color: #A491D2;
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    margin: 1rem;
+}
+
+.user_card {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+.user_thumb {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.main_chat {
+    width: 75vw;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 18rem;
+}
+
+.networking_img {
+    width: 15rem;
+    border-radius: 5%;
+}
+
+.networking_title {
+    color: #1B1F21;
+    padding: 0.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.networking_text {
+    font-weight: 300;
+    text-align: center;
+    color: #1B1F21;
+}
